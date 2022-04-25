@@ -10,9 +10,13 @@
 
 <body>
 
-    <form action="">
-        <label for="nameInput">What is your name:</label>
+    <form action="hello.php">
+        <label for="nameInput">What is your name? </label>
         <input id="nameInput" type="text" name="name">
+        <br>
+        <label for="age">How old are you? (years) </label>
+        <input id="age" type="number" name="age">
+        <br>
         <input type="submit">
     </form>
 </body>
