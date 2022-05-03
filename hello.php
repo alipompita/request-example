@@ -11,13 +11,6 @@ if (isset($_GET['name'])) { //check if variable 'name' is set inside GET request
     $age = $_POST['age'];
 }
 
-// echo "Request Body (GET): ";
-// print_r($_GET);
-
-// echo "Request Body (POST): ";
-// print_r($_POST);
-
-
 
 
 echo "</pre>";
