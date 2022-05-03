@@ -11,8 +11,6 @@ if (isset($_GET['name'])) { //check if variable 'name' is set inside GET request
     $age = $_POST['age'];
 }
 
-
-
 echo "</pre>";
 
 
