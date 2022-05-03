@@ -10,7 +10,21 @@
 
 <body>
 
-    <form action="hello.php">
+    <h3>GET Method</h3>
+    <hr>
+    <form action="hello.php" method="GET">
+        <label for="nameInput">What is your name? </label>
+        <input id="nameInput" type="text" name="name">
+        <br>
+        <label for="age">How old are you? (years) </label>
+        <input id="age" type="number" name="age">
+        <br>
+        <input type="submit">
+    </form>
+
+    <h3>POST Method</h3>
+    <hr>
+    <form action="hello.php" method="POST">
         <label for="nameInput">What is your name? </label>
         <input id="nameInput" type="text" name="name">
         <br>
