@@ -1,8 +1,8 @@
 <?php
+include_once 'functions.php';
 
 $name = 'World';
 $age = '10 Billion';
-echo "<pre>";
 if (isset($_GET['name'])) { //check if variable 'name' is set inside GET request body
     $name = $_GET['name'];
     $age = $_GET['age'];
@@ -11,7 +11,6 @@ if (isset($_GET['name'])) { //check if variable 'name' is set inside GET request
     $age = $_POST['age'];
 }
 
-echo "</pre>";
+sayHello($name, $age);
 
-
-echo "Hello " . $name . ", you look younger than a " . $age . " year-old!";
+echo "<br> " . $name . ", you were born in the year " . yearOfBirth($age);
